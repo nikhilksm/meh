@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+    <style type="text/css">
+        
+p { border-style:solid;
+    border-color:#000000;
+    border-width:2px;
+    padding:5px;
+    background-color:#FFFFFF; 
+  }
+p.two {
+    position:relative;
+    left: 40px; top: -40px; 
+    z-index:10;
+    }
+p.three  {
+    position:absolute;
+    left:15px; top:15px;
+    }
+p.four {
+    position:fixed;
+    left:600px; top:50px; 
+    z-index:14;
+    }
+div  {
+    position:fixed; left:200px; top:300px; 
+    height:200px; width:300px; border-style:solid; border-color:Blue;
+    }
+
+  table.my1{ border-collapse:separate; border-spacing:5px 10px; empty-cells:hide; table-layout:fixed; width:200px;} 
+  caption{ caption-side:bottom;}
+  
+  p.in{ float:right; width:150px;}
+  p.my{ clear:right;}
+  
+    </style>
+</head>
+<body>
+
+<p>NORMAL PARA. The candidates who qualify for the award of Junior Research Fellowship 
+are eligible to pursue research in the subject of their post-graduation or 
+in a related subject and are also eligible for Assistant Professor. 
+The universities, institutions, IITs and other national organizations may 
+select the JRF awardees for whole time research work in accordance with the procedure prescribed by them.</p>
+
+<p class=two>TWO - Relative Positioning. The candidates who qualify for the award of Junior Research Fellowship 
+are eligible to pursue research in the subject of their post-graduation or 
+in a related subject and are also eligible for Assistant Professor. </p>
+
+<div>
+<p class=three>THREE - Absolute Positioning. The candidates who qualify for the award of Junior Research Fellowship 
+are eligible to pursue research in the subject of their post-graduation or 
+in a related subject and are also eligible for Assistant Professor. </p> 
+</div>
+
+<p class=four>FOUR - Fixed Positioning. The candidates who qualify for the award of Junior Research Fellowship 
+are eligible to pursue research in the subject of their post-graduation or 
+in a related subject and are also eligible for Assistant Professor. </p>
+
+<p class=in>With Class IN. The candidates who qualify for the award of JRF.</p>
+
+<p class=my>Normal Para. The candidates who qualify for the award of Junior Research Fellowship 
+are eligible to pursue research in the subject of their post-graduation or 
+in a related subject and are also eligible for Assistant Professor.
+Normal Para. The candidates who qualify for the award of Junior Research Fellowship 
+are eligible to pursue research in the subject of their post-graduation or 
+in a related subject and are also eligible for Assistant Professor.
+Normal Para. The candidates who qualify for the award of Junior Research Fellowship 
+are eligible to pursue research in the subject of their post-graduation or 
+in a related subject and are also eligible for Assistant Professor.</p>
+
+</body>
+</html>
